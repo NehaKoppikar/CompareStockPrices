@@ -22,6 +22,7 @@ def get_stock_data(tickers, start_date, end_date):
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # Define the layout
 app.layout = html.Div([
